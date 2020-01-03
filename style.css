@@ -1,6 +1,10 @@
 body{
   width: 1000px;
+  margin: 0 auto;
 }
 header {
   height: 100px;
+}
+.contents p {
+  width: 700px;
 }
