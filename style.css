@@ -44,6 +44,17 @@ header {
   width: 1000px;
   margin: 0 auto;
 }
+.section {
+  margin-top: 50px;
+}
+.contents, .portfolio {
+  padding: 20px;
+  border: solid;
+  margin-bottom: 20px;
+}
+.portfolio {
+  width: 950px;
+}
 .top img {
   width: 1000px;
 }
@@ -51,6 +62,7 @@ header {
   width: 700px;
 }
 footer {
+  margin-top: 50px;
   height: 150px;
   background-color: slategray;
 }
