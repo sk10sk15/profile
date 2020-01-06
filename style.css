@@ -1,9 +1,42 @@
-body{
-  width: 1000px;
-  margin: 0 auto;
+body {
+  margin: 0;
+  padding: 0;
+}
+a {
+  position: relative;
+  text-decoration: none;
+  color: #4ba9c1;
+}
+a::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 1px;
+  background: #5db5cb;
+  transform: scale(0, 1);
+  transform-origin: center top;
+  transition: transform .3s;
+}
+a:hover::after {
+  transform: scale(1, 1);
 }
 header {
-  height: 100px;
+  height: 50px;
+  background-color: slategray;
+}
+.header-content {
+  float: right;
+  display: flex;
+  height: 50px;
+}
+.header-content p {
+  margin: 10px 20px 0;
+}
+.top, .section {
+  width: 1000px;
+  margin: 0 auto;
 }
 .contents p {
   width: 700px;
