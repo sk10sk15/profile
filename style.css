@@ -5,7 +5,7 @@ body {
 a {
   position: relative;
   text-decoration: none;
-  color: #4ba9c1;
+  color: #ffffff;
 }
 a::after {
   position: absolute;
@@ -14,13 +14,16 @@ a::after {
   content: '';
   width: 100%;
   height: 1px;
-  background: #5db5cb;
+  background: #ffffff;
   transform: scale(0, 1);
   transform-origin: center top;
   transition: transform .3s;
 }
 a:hover::after {
   transform: scale(1, 1);
+}
+.portfolio a {
+  color: #333
 }
 header {
   height: 50px;
@@ -34,7 +37,7 @@ header {
 .header-content p {
   margin: 10px 20px 0;
 }
-.top, .section {
+.top, .section, .portfolio {
   width: 1000px;
   margin: 0 auto;
 }
