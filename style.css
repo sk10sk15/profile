@@ -60,3 +60,8 @@ footer {
 .footer-content p {
   margin: 10px 20px 0;
 }
+.fadein, .fadein-open {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 1s;
+}
