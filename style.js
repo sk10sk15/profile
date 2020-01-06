@@ -12,6 +12,18 @@ $(function(){
       console.log(ok);
     })
   });
+  $(window).ready(function() {
+    $('.fadein-open2').each(function(){
+      var targetElement = $(this).offset().top;
+      var load = $(window).scrollTop();
+      var windowHeight = $(window).height();
+      if (load > targetElement - windowHeight + 300){
+          $(this).css('opacity','1');
+          $(this).css('transform','translateY(0)');
+      }
+      console.log(ok);
+    })
+  });
   //スクロールしたら
   $(window).scroll(function (){
       $('.fadein').each(function(){
