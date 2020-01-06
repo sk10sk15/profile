@@ -21,7 +21,7 @@ $(function(){
           $(this).css('opacity','1');
           $(this).css('transform','translateY(0)');
       }
-      console.log(ok);
+      console.log("ok");
     })
   });
   //スクロールしたら
@@ -34,7 +34,7 @@ $(function(){
               $(this).css('opacity','1');
               $(this).css('transform','translateY(0)');
           }
-          console.log(ok);
+          console.log("ok");
       });
   });
 });
