@@ -25,6 +25,9 @@ a:hover::after {
 .portfolio a {
   color: #333
 }
+.portfolio a::after {
+  background: #333;
+}
 header {
   height: 50px;
   background-color: slategray;
@@ -41,6 +44,19 @@ header {
   width: 1000px;
   margin: 0 auto;
 }
+.top img {
+  width: 1000px;
+}
 .contents p {
   width: 700px;
+}
+footer {
+  height: 150px;
+  background-color: slategray;
+}
+.footer-content {
+  float: right;
+}
+.footer-content p {
+  margin: 10px 20px 0;
 }
