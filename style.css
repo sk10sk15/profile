@@ -40,6 +40,14 @@ header {
 .header-content p {
   margin: 10px 20px 0;
 }
+/* ヘッダー追従 */
+.header-content.fixed {
+  width:100%;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:99999;
+}
 .top, .section, .portfolio {
   width: 1000px;
   margin: 0 auto;

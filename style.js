@@ -23,7 +23,12 @@ $(function(){
           }
       });
   });
+  //ヘッダー追従してみる
+  $(window).on('scroll', function() {
+    $('.header-content').toggleClass('fixed', $(this).scrollTop() > 50)
+  });
 });
+//スムーススクロール
 $(function(){
   $('a[href^="#"]').click(function(){
     var speed = 500;
