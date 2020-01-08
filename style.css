@@ -41,9 +41,11 @@ header {
   margin: 10px 20px 0;
 }
 /* ヘッダー追従 */
-.header-content.fixed {
+header.fixed {
   width:100%;
-  position:fixed;
+  background-color: slategray;
+  opacity: 0.9;
+  position: fixed;
   top:0;
   left:0;
   z-index:99999;
