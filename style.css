@@ -64,6 +64,7 @@ header.fixed {
 }
 .portfolio {
   width: 950px;
+  background-color: gainsboro;
 }
 .top img {
   width: 1000px;
